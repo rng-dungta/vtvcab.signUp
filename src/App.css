@@ -45,7 +45,6 @@ body {
 }
 
 .sign-up form input {
-  margin-bottom: 2vh;
   padding-left: 2.22vw;
   height: 5vh;
   width: 25vw;
@@ -62,7 +61,7 @@ body {
 }
 
 .agreement {
-  margin: 2vh 0 5vh 0;
+  margin: 2vh 0 0.5vh 0;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -79,6 +78,7 @@ body {
 }
 
 .sign-up form button {
+  margin-top: 3vh;
   height: 3.33rem;
   width: 10vw;
   border: none;
@@ -106,4 +106,9 @@ body {
   text-decoration: underline;
   font-size: 1rem;
   cursor: pointer;
+}
+
+.error {
+  margin-bottom: 2vh;
+  color: red;
 }

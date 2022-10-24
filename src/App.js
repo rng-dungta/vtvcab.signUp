@@ -88,6 +88,8 @@ export default function App() {
 
             <br />
 
+            <p className="error">{errors[0]}</p>
+
             <i class="fa fa-phone"></i>
 
             <input
@@ -129,6 +131,8 @@ export default function App() {
 
             <br />
 
+            <p className="error">{errors[1]}</p>
+
             <i class="fa fa-lock"></i>
 
             <input
@@ -148,6 +152,8 @@ export default function App() {
 
             <br />
 
+            <p className="error">{errors[2]}</p>
+
             <i class="fa fa-lock-open"></i>
 
             <input
@@ -164,6 +170,8 @@ export default function App() {
 
             <br />
 
+            <p className="error">{errors[3]}</p>
+
             <div className="agreement">
               <input
                 type="checkbox"
@@ -177,6 +185,8 @@ export default function App() {
                 I agree all statements in <a href="#">Terms of service</a>
               </label>
             </div>
+
+            <p className="error">{errors[4]}</p>
 
             <button type="button" onClick={buttonOnClick}>
               Register
