@@ -1,5 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8;
+}
+
+.sign-up {
+  height: 70vh;
+  width: 70vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 2rem;
+  box-shadow: 0 15px 16.83px 0.17px rgb(0 0 0 / 5%);
+  background-color: #fff;
+}
+
+.form h1 {
+  margin-bottom: 2vh;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.sign-up form i {
+  position: absolute;
+  z-index: 2;
+  margin: 1vh 0 0 0.5vw;
+  font-size: 1.11rem;
+}
+
+.sign-up form input {
+  margin-bottom: 2vh;
+  padding-left: 2.22vw;
+  height: 5vh;
+  width: 25vw;
+  border: none;
+  border-bottom: 1px solid #999;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.agreement {
+  margin: 2vh 0.5vw 5vh 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#agreement {
+  margin: 0 0.5vw 0 0;
+  height: 1rem;
+  width: 1rem;
+}
+
+.sign-up form label {
+  width: 30vw;
+}
+
+.sign-up form label a {
+  color: #000;
+}
+
+.sign-up form button {
+  height: 3.33rem;
+  width: 10vw;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #6dabe4;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.sign-up form button:hover {
+  background-color: rgb(55, 155, 255);
+}
+
+.member {
+  display: flex;
+  flex-direction: column;
+}
+
+.member button {
+  margin-top: 5vh;
+  border: none;
+  background-color: #fff;
+  text-decoration: underline;
+  font-size: 1rem;
+  cursor: pointer;
 }
