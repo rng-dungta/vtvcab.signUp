@@ -54,12 +54,17 @@ body {
   outline: none;
   font-size: 1rem;
   font-weight: 300;
+  transition: 0.2s;
+}
+
+.sign-up form input:focus {
+  border-bottom: 1px solid #000;
 }
 
 .agreement {
-  margin: 2vh 0.5vw 5vh 0;
+  margin: 2vh 0 5vh 0;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -67,10 +72,6 @@ body {
   margin: 0 0.5vw 0 0;
   height: 1rem;
   width: 1rem;
-}
-
-.sign-up form label {
-  width: 30vw;
 }
 
 .sign-up form label a {
